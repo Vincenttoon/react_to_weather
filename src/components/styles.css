@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Source+Serif+Pro:wght@300&display=swap');
+
+:root {
+    --primary: #2A2B5F;
+    --secondary: #393C83;
+    --tertiary: #3DC4D0;
+    --fourth: #44D9E6;
+    --dark-text: #353232;
+    --light-text: #F5F5F5;
+}
+
+* {
+    background-color: #928F94;
+    color: var(--light-text);
+}
+
+.main{
+    width: 700px;
+    border-radius: 15px;
+    background-color: var(--primary);
+}
+
+.detail-container{
+    background-color: #2A2B5F;
+}
+
+.header{
+    background-color: var(--tertiary);
+    padding: 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    color: var(--dark-text);
+}
+
+.day{
+    padding: 15px;
+    color: var(--light-text);
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #2A2B5F;
+}
+
+.date{
+    color: var(--light-text);
+    background-color: #2A2B5F;
+}
+
+.description{
+    padding: 15px;
+    color: var(--light-text);
+    background-color: #2A2B5F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: var(--light-text);
+    font-size: 18px;
+    background-color: #2A2B5F;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2A2B5F;
+}
+
+.sunrise-sunset{
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    background-color: #2A2B5F;
+}
